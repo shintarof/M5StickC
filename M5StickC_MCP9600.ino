@@ -10,7 +10,7 @@ void loop() {
   int nDevices;
   M5.Lcd.setRotation(3);
   M5.Lcd.setTextSize(4);
-  Serial.println("Scanning... Wire");
+//  Serial.println("Scanning... Wire");
   nDevices = 0;
   for (address = 1; address < 127; address++ )
   {
@@ -19,10 +19,10 @@ void loop() {
 
     if (error == 0)
     {
-      Serial.print("I2C device found at address 0x");
+      //Serial.print("I2C device found at address 0x");
       if (address < 16)
-      Serial.print("0");
-      Serial.print(address, HEX);
+      //Serial.print("0");
+      //Serial.print(address, HEX);
       Wire.write(0x00); 
       Wire.endTransmission(false) ;
       Wire.requestFrom(address, 2, true);
