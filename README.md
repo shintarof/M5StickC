@@ -10,8 +10,12 @@
  https://github.com/shintarof/M5StickC/tree/master/MCP9600_NodeRed  
  https://shintarof.hatenablog.com/entry/2020/03/18/232444  
 
+ - MCP9600_ambient
+ 熱電対温度センサモジュールMCP9600をM5StickCに接続し、ambientでグラフを描画してみた  
+ 
  - inversed_pendulum  
  M5StickCとDRV8830とタミヤのギヤモーターで倒立振子を作ってみた  
  https://github.com/shintarof/M5StickC/tree/master/inversed_pendulum  
  https://shintarof.hatenablog.com/entry/2020/04/16/230432  
  
+
